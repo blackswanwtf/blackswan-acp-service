@@ -1,0 +1,60 @@
+{
+  "name": "blackswan-acp-service",
+  "version": "1.0.0",
+  "description": "Scalable BlackSwan Analysis ACP Agent Service - Production-ready service providing Black Swan and Market Peak analysis via Agent Commerce Protocol",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node src/index.js",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "docker:build": "docker build -t blackswan-acp .",
+    "docker:run": "docker run -p 3002:3002 --env-file .env blackswan-acp",
+    "health": "curl -s http://localhost:3002/health | jq",
+    "info": "curl -s http://localhost:3002/info | jq",
+    "metrics": "curl -s http://localhost:3002/metrics | jq"
+  },
+  "keywords": [
+    "acp",
+    "agent-commerce-protocol",
+    "blackswan",
+    "market-analysis",
+    "virtuals",
+    "blockchain",
+    "analysis",
+    "cryptocurrency"
+  ],
+  "author": "OAIAO Labs Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "@virtuals-protocol/acp-node": "^0.2.0-beta.11",
+    "axios": "^1.11.0",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^7.1.0",
+    "node-cron": "^3.0.3",
+    "prom-client": "^15.1.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/blackswan-acp-service"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/blackswan-acp-service/issues"
+  },
+  "homepage": "https://github.com/your-org/blackswan-acp-service#readme"
+}
