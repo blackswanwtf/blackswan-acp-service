@@ -326,7 +326,7 @@ Service information and capabilities.
     "name": "BlackSwan ACP Service",
     "version": "1.0.0",
     "description": "Production-ready ACP service for BlackSwan and Market Peak analysis",
-    "author": "OAIAO Labs Inc."
+    "author": "Muhammad Bilal Motiwala"
   },
   "capabilities": [
     {
@@ -944,13 +944,12 @@ npm run test:security
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author & Organization
+## 👨‍💻 Author
 
-**OAIAO Labs Inc.**
+**Muhammad Bilal Motiwala**
 
-- GitHub: [@oaiaolabs](https://github.com/oaiaolabs)
-- Website: [oaiaolabs.com](https://oaiaolabs.com)
-- Email: [contact@oaiaolabs.com](mailto:contact@oaiaolabs.com)
+- GitHub: [@bilalmotiwala](https://github.com/bilalmotiwala)
+- Email: [bilal@oaiaolabs.com](mailto:bilal@oaiaolabs.com)
 
 ## 🆘 Support
 
@@ -964,18 +963,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Community Resources
 
-- **Virtuals Protocol Documentation**: [docs.virtuals.io](https://docs.virtuals.io)
+- **Virtuals Protocol Docs and Whitepaper**: [whitepaper.virtuals.io](https://whitepaper.virtuals.io/)
 - **ACP Builder's Guide**: [ACP Tech Playbook](https://whitepaper.virtuals.io/info-hub/builders-hub/agent-commerce-protocol-acp-builder-guide/acp-tech-playbook)
-- **Discord Community**: [Discord](https://discord.gg/virtuals)
-- **GitHub Discussions**: [Repository Discussions](https://github.com/your-org/blackswan-acp-service/discussions)
-
-### Professional Support
-
-For enterprise deployments and professional support:
-
-- **Enterprise Support**: [enterprise@oaiaolabs.com](mailto:enterprise@oaiaolabs.com)
-- **Custom Development**: [dev@oaiaolabs.com](mailto:dev@oaiaolabs.com)
-- **Training & Consulting**: [consulting@oaiaolabs.com](mailto:consulting@oaiaolabs.com)
 
 ---
 
