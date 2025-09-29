@@ -206,7 +206,7 @@ function detectRequestedService(serviceRequirement) {
 }
 
 /**
- * Fetches analysis data from the VouAI API
+ * Fetches analysis data from the Black Swan API
  */
 async function fetchAnalysisData(serviceType) {
   const endpoint = SERVICE_ENDPOINTS[serviceType];
@@ -514,7 +514,7 @@ app.get("/health", (req, res) => {
       ready: isServiceReady,
     },
     api: {
-      vouai_url: CONFIG.BLACKSWAN_API_URL,
+      platform_url: CONFIG.BLACKSWAN_API_URL,
       timeout: CONFIG.API_TIMEOUT,
     },
   };

@@ -25,7 +25,8 @@
     "analysis",
     "cryptocurrency"
   ],
-  "author": "OAIAO Labs Inc.",
+  "author": "Muhammad Bilal Motiwala",
+  "project": "Black Swan",
   "license": "MIT",
   "dependencies": {
     "@virtuals-protocol/acp-node": "^0.2.0-beta.11",
@@ -48,13 +49,5 @@
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/your-org/blackswan-acp-service"
-  },
-  "bugs": {
-    "url": "https://github.com/your-org/blackswan-acp-service/issues"
-  },
-  "homepage": "https://github.com/your-org/blackswan-acp-service#readme"
+  }
 }
