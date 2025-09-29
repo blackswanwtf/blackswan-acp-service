@@ -15,7 +15,9 @@
  * - Graceful error handling
  * - Hot reload support for development
  *
- * Author: OAIAO Labs Inc.
+ * Author: Muhammad Bilal Motiwala
+ * Project: Black Swan
+ * Version: 1.0.0
  * License: MIT
  */
 
