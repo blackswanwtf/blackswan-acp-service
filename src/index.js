@@ -29,12 +29,12 @@ const compression = require("compression");
 const rateLimit = require("express-rate-limit");
 const axios = require("axios");
 
-// ACP SDK Import - using relative path to local package
-const AcpClient = require("../../acp-node/dist/index.js").default;
+// ACP SDK Import - using the published package for ACP Node.
+const AcpClient = require("@virtuals-protocol/acp-node").default;
 const {
   AcpContractClient,
   AcpJobPhases,
-} = require("../../acp-node/dist/index.js");
+} = require("@virtuals-protocol/acp-node");
 
 // =================================
 // CONFIGURATION & ENVIRONMENT
