@@ -547,7 +547,7 @@ app.get("/info", (req, res) => {
       "Concurrent job handling",
       "Comprehensive error handling",
     ],
-    documentation: "https://github.com/your-org/blackswan-acp-service",
+    documentation: "https://github.com/blackswanwtf/blackswan-acp-service",
   });
 });
 

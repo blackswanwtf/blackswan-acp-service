@@ -5,15 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "node src/index.js",
-    "lint": "eslint src/**/*.js",
-    "lint:fix": "eslint src/**/*.js --fix",
-    "docker:build": "docker build -t blackswan-acp .",
-    "docker:run": "docker run -p 3002:3002 --env-file .env blackswan-acp",
-    "health": "curl -s http://localhost:3002/health | jq",
-    "info": "curl -s http://localhost:3002/info | jq",
-    "metrics": "curl -s http://localhost:3002/metrics | jq"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "acp",
